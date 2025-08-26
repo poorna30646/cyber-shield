@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Report To Cyber Crime</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h2>📧Report To Cyber Crime</h2>
+    <input type="text" id="name" placeholder="Your Name">
+    <input type="email" id="fromEmail" placeholder="Your Email (Sender)">
+    <textarea id="message" placeholder="Enter your message"></textarea>
+    <button onclick="sendMail()">Send Email</button>
+    <p id="status"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
